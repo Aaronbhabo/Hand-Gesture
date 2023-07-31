@@ -22,7 +22,7 @@ function takesnapshot(){
 }
 
 console.log('ml5 version',ml5.version);
-classifire=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/-5UIWrFEJ/model.json',modelloaded);
+classifire=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/VPH0cO1ZN/model.json',modelloaded);
 function modelloaded(){
     console.log("model is loaded");
 }
