@@ -53,29 +53,29 @@ function gotresult(error,results){
         prediction2L=results[1].label;
         speak();
 
-        if(results[0].label=="Happy"){
-            document.getElementById("emojiresult1").innerHTML="&#128512;";
+        if(results[0].label=="Victory"){
+            document.getElementById("emojiresult1").innerHTML="&#9996;";
         }
 
-        if(results[0].label=="Sad"){
-            document.getElementById("emojiresult1").innerHTML="&#128557;";
+        if(results[0].label=="Amazing"){
+            document.getElementById("emojiresult1").innerHTML="&#128076;";
         }
 
-        if(results[0].label=="Angry"){
-            document.getElementById("emojiresult1").innerHTML="&#128520;";
+        if(results[0].label=="Good"){
+            document.getElementById("emojiresult1").innerHTML="&#128077;";
         }
 
 
-        if(results[1].label=="Happy"){
-            document.getElementById("emojiresult2").innerHTML="&#128512;";
+        if(results[1].label=="Victory"){
+            document.getElementById("emojiresult2").innerHTML="&#9996;";
         }
 
-        if(results[1].label=="Sad"){
-            document.getElementById("emojiresult2").innerHTML="&#128557;";
+        if(results[1].label=="Amazing"){
+            document.getElementById("emojiresult2").innerHTML="&#128076;";
         }
 
-        if(results[1].label=="Angry"){
-            document.getElementById("emojiresult2").innerHTML="&#128520;";
+        if(results[1].label=="Good"){
+            document.getElementById("emojiresult2").innerHTML="&#128077;";
         }
         
 
